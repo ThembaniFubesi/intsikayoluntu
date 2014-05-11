@@ -8,6 +8,7 @@
         <!--end load sidebar-->
 
     </aside>
+
     <section class="trans-all">
 
         <!--load mobile menu-->
