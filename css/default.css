@@ -16,7 +16,11 @@ main section{/*width:75.29%;*/height: 100%;background: #eeece9 url("images/bg-pa
 
 /*sidebar*/
 main aside .logo{margin: 30px 0 74px 0;padding: 0;}
-main aside nav{height: 265px;width: 268px;overflow: hidden;position: relative;}
+
+/*
+	Simo - Changed nav width
+*/
+main aside nav{height: 265px;width: 290px;overflow: hidden;position: relative;}
 main aside nav a{display: block;color: #000000;text-decoration: none;font-size: 0.875em;height: 45px;line-height: 45px;border-bottom: 1px #a2988c solid;}
 main aside nav a.activities{background: url("images/activities.png") no-repeat 20px top;}
 main aside nav a.values{background: url("images/values.png") no-repeat 20px top;}
@@ -26,6 +30,13 @@ main aside nav a.contact{background: url("images/contact.png") no-repeat 20px to
 
 main aside nav a:last-child{border-bottom: 0;}
 main aside nav a:hover,main aside nav a.active{background-color: #5a5146;background-position: 20px bottom;color: #ffffff;}
+
+/*
+	Simo - Footer
+*/
+main aside footer {position: absolute;bottom: 10px;font-size: 0.8em;color: #5C5C5C;padding-left: 30px;}
+main aside footer .instika-copyright, .ownappeal{font-weight: bold;}
+main aside footer .ownappeal a{text-decoration: none;color: #5C5C5C;}
 
 /*end sidebar*/
 
@@ -37,17 +48,30 @@ main section article{/*height: 100%;*/min-height: 100%;}
 .wrapper .inner .section-title{text-align: center;font-size: 1.500em;position: relative;display: inline-block;line-height: 1.2;margin: 18px 0;}
 .wrapper .inner .section-title:before{content: '';width: 40px;height: 18px;background: url("images/section-title-right.png") no-repeat;display: block;position: absolute;top: -15px;right:-20px;}
 .wrapper .inner .section-title:after{content: '';width: 40px;height: 18px;background: url("images/section-title-left.png") no-repeat;display: block;position: absolute;bottom:-18px;left:-20px;}
-.wrapper .inner .home-wrapper{height: 300px;width: 100%;background: #000000;}
+/*
+	Simo - section wrapper ("section-content") for all pages. Instead of [pagename]-wrapper
+			   cause font size and paragraph should look the same, unless otherwise stated.
+
+	  		 .wrapper .inner .home-wrapper{height: 300px;width: 100%;background: #000000;} 
+*/
+.wrapper .inner .section-content{height: 300px; width: 93%;padding-left: 110px; font-size: 1.28em; letter-spacing: 0.05em; line-height: 1.25em; word-spacing: 0.12em;}
 
 main section article#activities{}
 main section article#activities .inner{padding: 30px 0;}
-main section article#activities .inner .banner{text-align: left;height: 250px;background:#24292f;margin:40px 0 40px 90px;margin-top: 80px;box-shadow: -1px 2px 2px 2px rgba(0,0,0,0.21);position: relative;margin-top: 80px;}
+
+/* 
+	Simo - changed left magin to 40px
+*/
+main section article#activities .inner .banner{text-align: left;height: 250px;background:#24292f;margin:40px 0 40px 40px;margin-top: 80px;box-shadow: -1px 2px 2px 2px rgba(0,0,0,0.21);position: relative;margin-top: 80px;}
 main section article#activities .inner .banner .banner-image{position: absolute;right: 0.5%;top:-8%;display: block;}
 main section article#activities .inner .banner blockquote{font-size:1.125em;line-height: 24px;color:#ffffff;text-align: center;display: inline-block;width: 40%;margin: 80px 0 0 5%;position: relative;}
 main section article#activities .inner .banner blockquote:before{width: 23px;height: 20px;background: url("images/quote-left.png");content: "";display: inline-block;}
 main section article#activities .inner .banner blockquote:after{width: 23px;height: 20px;background: url("images/quote-right.png");content: "";display: inline-block;}
 .cssanimations main section article#activities .inner .banner blockquote:hover{-webkit-transform:scale(1.2);-moz-transform:scale(1.2);-ms-transform:scale(1.2);-o-transform:scale(1.2);transform:scale(1.2);}
-main section article#activities .inner p{font-size: 0.813em;color:#000000;line-height: 18px;padding: 20px 90px;}
+/*
+	Simo - Changed font size of p
+*/
+main section article#activities .inner p{font-size: 0.713em;color:#000000;/*line-height: 18px;*/padding: 20px 90px;}
 main section article#activities .inner .banner p{font-size: 1.125em;color: #ffffff;position: absolute;bottom: 30px;left: 5%;padding: 0;}
 
 
@@ -66,6 +90,8 @@ main section article#history{}
 main section article#gallery{}
 
 main section article#contact{}
+
+
 /*end content*/
 
 /*media queries*/
