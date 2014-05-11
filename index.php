@@ -7,7 +7,7 @@ include './includes/header.php';
 ?>
 <!--end load header-->
 
-<!--load content-->
+<!--l oad content-->
 <?php
 include './content.php';
 ?>
