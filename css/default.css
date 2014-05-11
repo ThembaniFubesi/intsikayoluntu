@@ -54,7 +54,7 @@ main section article{/*height: 100%;*/min-height: 100%;}
 
 	  		 .wrapper .inner .home-wrapper{height: 300px;width: 100%;background: #000000;} 
 */
-.wrapper .inner .section-content{height: 300px; width: 93%;padding-left: 110px; font-size: 1.28em; letter-spacing: 0.05em; line-height: 1.25em; word-spacing: 0.12em;}
+.wrapper .inner .section-content{height: 300px; width: 93%;padding-left: 110px; font-size: 1.18em; letter-spacing: 0.05em; line-height: 1.25em; word-spacing: 0.12em;}
 
 main section article#activities{}
 main section article#activities .inner{padding: 30px 0;}
