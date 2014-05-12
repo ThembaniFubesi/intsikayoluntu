@@ -1,6 +1,4 @@
 intsikayoluntu
 ==============
 
-Intsika Yoluntu Development Project
-
-change test
+Intsika Yoluntu Development Project.
