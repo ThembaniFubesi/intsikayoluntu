@@ -1,4 +1,4 @@
 intsikayoluntu
 ==============
 
-Intsika Yoluntu Development Project.
+Intsika Yoluntu Development Project
